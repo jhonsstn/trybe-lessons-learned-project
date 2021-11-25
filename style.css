@@ -1,25 +1,49 @@
 * {
-    background-color: rgb(253, 251, 251);
-    margin: 0;
-    padding: 0;
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    padding: 0px;
-    border: none;
+  padding: 0px;
+  border: none;
 
 }
 
 header {
-    position: fixed;
-    top: 0;
-    background-color: green;
-    width: 100%;
-    height: 100px;
+  position: fixed;
+  top: 0;
+  background-color: green;
+  width: 100%;
+  height: 100px;
 }
 
 h1 {
-    background-color: green;
-    text-align: center;
-    color: white;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background-color: green;
+}
+
+.nav-button {
+  text-decoration: none;
+  background-color: green;
+}
+
+img {
+  margin-top: 140px;
+  margin-left: 40px;
+}
+
+article {
+  max-width: 40%;
+  display: block;
+}
+
+aside {
+  max-width: 40%;
+  display: block;
 }
