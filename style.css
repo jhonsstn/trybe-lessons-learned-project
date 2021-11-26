@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   background-color: rgb(253, 251, 251);
   margin: 0px;
@@ -22,6 +24,7 @@ h1 {
   background-color: green;
   text-align: center;
   color: white;
+  font-family: 'Roboto',  sans-serif;
 }
 
 nav {
