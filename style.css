@@ -14,7 +14,7 @@ body {
 
 header {
   position: fixed;
-  top: 0;
+  top: 0px;
   background-color: green;
   width: 100%;
   height: 100px;
@@ -24,7 +24,7 @@ h1 {
   background-color: green;
   text-align: center;
   color: white;
-  font-family: 'Roboto',  sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -41,12 +41,48 @@ img {
   margin-left: 40px;
 }
 
-article {
+.my-name {
+  margin-top: 10px;
+  margin-left: 40px
+}
+
+#list-box {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.lists-block {
+  display: block;
+}
+
+ol {
+  margin-left: 50px;
+}
+
+ul {
+  margin-left: 250px;
+}
+
+article,
+aside {
   max-width: 40%;
   display: block;
 }
 
-aside {
-  max-width: 40%;
-  display: block;
+.paragraph-box {
+  margin: 30px;
+  padding: 30px;
+}
+
+#paragraphs-flex-box {
+  display: flex;
+}
+
+#rodape {
+  text-align: center;
+  color: white;
+  background-color: green;
+  height: 60px;
+  vertical-align: middle;
 }
